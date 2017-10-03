@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+<div id="helloArray">
+    <ul>
+        <li v-for="hello in helloArray">
+            {{hello.language}}: {{hello.hello}}
+        </li>
+    </ul>
+</div>
+<div id="now">
+    now: {{now}}
+</div>
+
+</body>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script src="node_modules/axios/dist/axios.js"></script>
+<script src="js/hello.js"></script>
+</html>
